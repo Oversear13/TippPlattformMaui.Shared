@@ -11,7 +11,7 @@ namespace TippPlattformMaui.Shared.Dtos
         public string GastMannschaft { get; set; } = string.Empty;
 
         // Spielzeit
-        public DateTime Datum { get; set; }
+        public DateTime? Datum { get; set; }
 
         // Zeitpunkt, bis wann man tippen kann
         public DateTime? Tipptermin { get; set; }
